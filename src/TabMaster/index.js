@@ -3,6 +3,7 @@ import { createMaterialTopTabNavigator } from "react-navigation"
 
 import Home from "../Home"
 import AllCars from "../AllCars"
+import Simulation from "../Simulation"
 
 const AppNavigator = createMaterialTopTabNavigator({
     Home: {
@@ -10,6 +11,9 @@ const AppNavigator = createMaterialTopTabNavigator({
     },
     AllCars: {
         screen: AllCars
+    },
+    Simulation: {
+        screen: Simulation
     }
 },
 {
